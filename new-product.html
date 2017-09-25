@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新品</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/new-product.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+</head>
+<body>
+	<!-- 首部导航 -->
+	<div class="head">
+		<div class="header-new">
+			<div class="head-nav center-box clearfix">
+				<div class="head-nav-register fl">
+					<a href="#targe" class="fl">登录</a>
+					<a href="register.html" class="fl">注册</a>
+				</div>
+				<div class="shopping-car fr">
+					<img src="img/buycar.png" alt="">
+					<a href="buycar.html">购物车<span style="color: #ff7800;">0</span>件</a>
+				</div>
+			</div>
+		</div>
+		<div style="border-top: 1px solid #f0f0f0;background-color: #fff;">
+			<div class="second center-box clearfix">
+				<ul class="left-nav-list fl clearfix">
+					<li class="shouye">
+						<a href="index.html"><i class="iconfont icon-shouyetubiao1"></i></a>
+					</li>
+					<li><a href="fair.html">市集</a></li>
+					<li><a href="#">新品</a></li>
+					<li><a href="#">热卖</a></li>
+					<li><a href="#">闪购</a></li>
+					<li style="height: 44px;" class="rel">
+						<a href="#">定制</a>
+						<div class="hidden-field">
+							<div class="hidden-field-top clearfix">
+								<a class="a1" href="#">
+									<p style="color: #f3142b;" class="english">CUSTOM</p>
+									<p>定制首页</p>
+								</a>
+								<a class="a2" href="#">
+									<p style="color:#78dd00;" class="english">NEW</p>
+									<p>最新</p>
+								</a>
+								<a class="a3" href="#">
+									<p style="color: #ff6c00;" class="english">HOT</p>
+									<p>最热</p>
+								</a>
+								<a class="a4" href="#">
+									<p style="color: #ff48b4;" class="english">LOVE</p>
+									<p>喜欢最多</p>
+								</a>
+							</div>
+							<div class="hidden-field-nav">
+								<a href="#">服装服饰</a>
+								<a href="#">饰品饰物</a>
+								<a href="#">鞋帽包袋</a>
+								<a href="#">家居日用</a>
+								<a href="#">食品/植物/其它</a>
+								<a href="#">数码周边</a>
+								<a href="#">办公文具</a>
+								<a href="#">卡片/玩具玩偶</a>
+							</div>
+							<div class="hidden-field-lists">
+								<ul class="xiangtong hidden-field-color clearfix">
+									<li class="black-triangle">颜色筛选：</li>
+									<li>
+										<a style="background:#ff0087;" href="#"></a>
+									</li>
+									<li>
+										<a style="background:#ff0000;" href="#"></a>
+									</li>
+									<li>
+										<a style="background:#ff8100; " href="#"></a>
+									</li>
+									<li>
+										<a style="background:#f4cd00;" href="#"></a>
+									</li>
+									<li>
+										<a style="background:#fffe09;" href="#"></a>
+									</li>
+									<li>
+										<a style="background:#00e405;" href="#"></a>
+									</li>
+									<li>
+										<a style="background:#714b25;" href="#"></a>
+									</li>
+									<li>
+										<a style="background:#a40cf5;" href="#"></a>
+									</li>
+									<li>
+										<a style="background:#0200fb;" href="#"></a>
+									</li>
+									<li>
+										<a style="background:#04d4f5;" href="#"></a>
+									</li>
+									<li>
+										<a style="background:#ffffff;border: 1px solid #cecece;border-radius: 10px;" href="#"></a>
+									</li>
+									<li>
+										<a style="background:#818181;" href="#"></a>
+									</li>
+									<li>
+										<a style="background:#000000;" href="#"></a>
+									</li>
+								</ul>
+								<ul class="xiangtong hidden-field-material clearfix">
+									<li class="black-triangle">定制材料：</li>
+									<li><a href="#">棉</a></li>
+									<li><a href="#">金</a></li>
+									<li><a href="#">亚麻</a></li>
+									<li><a href="#">银</a></li>
+									<li><a href="#">塑料</a></li>
+									<li><a href="#">毛料</a></li>
+									<li><a href="#">铜</a></li>
+									<li><a href="#">纸</a></li>
+									<li><a href="#">雪纺</a></li>
+									<li><a href="#">合金</a></li>
+									<li><a href="#">复合材料</a></li>
+									<li><a href="#">毛线</a></li>
+									<li><a href="#">木质</a></li>
+									<li><a href="#">真皮</a></li>
+									<li><a href="#">牛仔</a></li>
+									<li><a href="#">绸缎</a></li>
+									<li><a href="#">PU</a></li>
+									<li><a href="#">帆布</a></li>
+									<li><a href="#">真丝</a></li>
+									<li><a href="#">灯芯绒</a></li>
+									<li><a href="#">聚酯纤维</a></li>
+									<li><a href="#">玻璃水晶</a></li>
+									<li><a href="#">其他</a></li>
+									<li><a href="#">宝石/珍珠</a></li>
+								</ul>
+								<ul class="xiangtong hidden-field-material clearfix">
+									<li class="black-triangle">定制工艺：</li>
+									<li><a href="#">手工</a></li>
+									<li><a href="#">机器</a></li>
+								</ul>
+								<ul class="xiangtong hidden-field-material clearfix">
+									<li class="black-triangle">定制内容：</li>
+									<li><a href="#">量体</a></li>
+									<li><a href="#">来图</a></li>
+									<li><a href="#">其他</a></li>
+								</ul>
+								<ul class="xiangtong hidden-field-material clearfix">
+									<li class="black-triangle">礼物推荐：</li>
+									<li><a href="#">送给他</a></li>
+									<li><a href="#">送给她</a></li>
+									<li><a href="#">送闺蜜</a></li>
+									<li><a href="#">送兄弟</a></li>
+									<li><a href="#">送长辈</a></li>
+									<li><a href="#">送儿童</a></li>
+									<li><a href="#">送老板</a></li>
+									<li><a href="#">送员工</a></li>
+									<li><a href="#">送客户</a></li>
+									<li><a href="#">送自己</a></li>
+									<li><a href="#">乔迁礼物</a></li>
+									<li><a href="#">生日礼物</a></li>
+								</ul>
+								<ul class="xiangtong hidden-field-material clearfix">
+									<li class="black-triangle">节日推荐：</li>
+									<li><a href="#">春节</a></li>
+									<li><a href="#">清明</a></li>
+									<li><a href="#">七夕</a></li>
+									<li><a href="#">端午</a></li>
+									<li><a href="#">父亲</a></li>
+									<li><a href="#">母亲</a></li>
+									<li><a href="#">儿童</a></li>
+									<li><a href="#">中秋</a></li>
+									<li><a href="#">万圣</a></li>
+									<li><a href="#">情人</a></li>
+									<li><a href="#">重阳</a></li>
+									<li><a href="#">圣诞</a></li>
+									<li><a href="#">愚人</a></li>
+								</ul>
+								<ul class="xiangtong hidden-field-material clearfix">
+									<li class="black-triangle">情景推荐：</li>
+									<li><a href="#">上班</a></li>
+									<li><a href="#">约会</a></li>
+									<li><a href="#">表白</a></li>
+									<li><a href="#">婚礼</a></li>
+									<li><a href="#">年会</a></li>
+									<li><a href="#">装修</a></li>
+									<li><a href="#">旅行</a></li>
+									<li><a href="#">聚会</a></li>
+								</ul>
+							</div>
+							<div class="hidden-field-bottom">
+								<a href="#">MORE 更多分类 ></a>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="right-nav-list fr clearfix">
+					<li><a href="#">画报</a></li>
+					<li><a href="#">动态</a></li>
+					<li class="search clearfix">
+						<input type="text" placeholder="请输入要搜索的关键词">
+						<a href="#"><img src="img/search.png" alt=""></a>
+					</li>
+				</ul>
+				<div class="nav-logo">
+					<a href="index.html"><img src="img/logo.jpg" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 登录 -->
+	<div id="targe" class="box">
+		<div class="denglu center-box">
+			<div class="logoTip clearfix">
+				<div class="logoTip-top clearfix">
+					<div class="fr logoTip-top-close clearfix">
+						<a href="#">close</a>
+					</div>
+					<div class="logoTip-top-text">
+						登录哇噻网
+					</div>
+				</div>
+				<div class="logoTip-input">
+					<form id="login_form1" class="clearfix">
+						<p>
+							<label for="">邮箱：</label>
+							<input type="text" placeholder="请使用注册邮箱登录">
+						</p>
+						<p>
+							<label for="">密码：</label>
+							<input type="password">
+						</p>
+						<span class="rember-user clearfix">
+							<input type="checkbox">
+							记住我一周(在公共场所请慎用此功能)
+						</span>
+						<div class="logoTip-button clearfix">
+							<a class="ms_yahei" href="#">登录</a>
+							<a class="forget" href="#">忘记密码?</a>
+						</div>
+					</form>
+				</div>
+				<div class="logoTip-dash">
+					还没有哇噻网帐号？
+					<a href="#">立即注册</a>
+					或  使用以下帐号登录
+				</div>
+				<div class="logoTip-ludeng clearfix">
+					<a href="#">
+						<img src="img/denglu_qq.gif" alt="">
+					</a>
+					<a href="#">
+						<img src="img/denglu_sina.gif" alt="">
+					</a>
+					<a href="#">
+						<img src="img/denglu_icon1_16.gif" alt="">
+					</a>
+					<a href="#">
+						<img src="img/denglu_icon1_18.gif" alt="">
+					</a>
+					<a href="#">
+						<img src="img/denglu_baidu.gif" alt="">
+					</a>
+					<a href="#">
+						<img src="img/denglu_douban.gif" alt="">
+					</a>
+					<a href="#">
+						<img src="img/denglu_kaixin.gif" alt="">
+					</a>
+					<a href="#">
+						<img src="img/denglu_shengda.png" alt="">
+					</a>
+					<a href="#">
+						<img src="img/denglu_renren.gif" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 新品 -->
+	<div class="xinpin">
+		<div class="new-product-title">
+			<div class="new-product-middle">
+				<h1>新品</h1>
+			</div>
+		</div>
+		<div class="new-product">
+			<div class="new-product-content center-box">
+				<div class="new-product-nav">
+					<ul class="clearfix">
+						<li>
+							<a style="color: #00cccc;" href="#">全部分类</a>
+						</li>
+						<li>
+							<a href="#">服饰</a>
+						</li>
+						<li>
+							<a href="#">饰品</a>
+						</li>
+						<li>
+							<a href="#">鞋包</a>
+						</li>
+						<li>
+							<a href="#">家居</a>
+						</li>
+						<li>
+							<a href="#">数码</a>
+						</li>
+						<li>
+							<a href="#">文具</a>
+						</li>
+						<li>
+							<a href="#">玩偶</a>
+						</li>
+						<li>
+							<a href="#">定制</a>
+						</li>
+						<li>
+							<a href="#">艺术</a>
+						</li>
+						<li>
+							<a href="#">民艺</a>
+						</li>
+						<li class="last">
+							<a href="#">植物食品</a>
+						</li>
+					</ul>
+				</div>
+				<div class="new-product-list">
+					<ul class="clearfix">
+						<li>
+							<a href="#">
+								<img src="img/wgood_201704011644115161 (1).jpg" alt="">
+							</a>
+							<p>
+								<a href="#">熊兴原创手工水果盘创意实木盘子简约木质客厅家用餐厅酒店早餐盘</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥138</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201704011637375140.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">熊兴原创车载后视镜汽车香水精油木质车内扩香器创意悬挂式香水</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥108</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201703271525349705.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">原创手工幸运红手绳女生礼物S925银手链手绳结合本女朋友韩版</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥36</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li style="margin-right: 0;">
+							<a href="#">
+								<img src="img/wgood_201703230944042925.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">原创情人节手工编织双层转运红黑手绳999足金黄金男女情侣饰品链</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥60</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201703211342259347.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">新品手工编织转运本命年黑红手绳男女情侣款饰品日韩版护身辟邪款</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥11</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201703211350052991.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">新品纯手工编织正宗九乘金刚结辟邪转运红黑手绳男女情侣款饰品礼</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥16</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201703211359152219.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">简洁简约男女转运红黑手绳情侣款礼物双层辟邪防小人简单款式</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥8</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li style="margin-right: 0;">
+							<a href="#">
+								<img src="img/wgood_201703211406542978.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">手工时尚幸运小红绳手链女男情侣学生韩版简约黑色平安红手绳新品</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥8</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201703221041491719.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">手工定制情侣转运手绳红黑同心结双钱男女款手链手绳本命年防小人</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥28</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201702240859149762.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">原创黑胡桃木质茶叶盒实木便携随身出差旅行磁力茶罐简易坚果盒子</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥229</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201702240834113762.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">熊兴原创木质手机支架办公桌面通用手机架简约实木收纳充电线底座</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥138</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li style="margin-right: 0;">
+							<a href="#">
+								<img src="img/wgood_201702231122139408.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">熊兴原创车载出风口香水木质手工方形汽车香水香薰精油车内扩香器</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥78</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201702221150462349.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">熊兴原创苹果7超薄实木手机壳iphone5 5SE 6s plus简约木质保护套</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥58</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201702211148247340.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">熊兴原创女式卡包男士银行卡套简约日韩名片夹创意手工实木名片盒</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥138</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201702181450098789.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">熊兴原创实木名片夹商务大容量时尚男士名片盒简约创意女式名片夹</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥178</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li style="margin-right: 0;">
+							<a href="#">
+								<img src="img/wgood_201702170838281602.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">熊兴原创多功能蜗牛时钟卧室客厅办公静音时钟简约创意实木台钟</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥69</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201702161158165905.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">手工定制情侣转运手绳红黑同心结双钱男女款手链手绳本命年防小人</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥28</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201702061704402321.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">熊兴便携手机蓝牙收音机台式电脑迷你音响木质简约无线插卡音响</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥98</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201701111502141765.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">熊本熊Kumamon部长正版三折自动开收晴雨伞福懋伞布UPF>50+</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥128</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li style="margin-right: 0;">
+							<a href="#">
+								<img src="img/wgood_201702161139417228.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">熊兴原创苹果7超薄实木手机壳iphone5 5SE 6s plus简约木质保护套</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥68</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201701061430058157.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">熊兴原创简约可爱汽车钥匙扣女生包包实木百搭挂件松果钥匙链吊坠</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥39</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201612301513054812.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">花间公主森林之光印花文艺清新手提单肩帆布托特竖款女包</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥208</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/wgood_201612301510274570.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">花间公主森林之光印花文艺清新手提单肩帆布女包托特包</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥208</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+						<li style="margin-right: 0;">
+							<a href="#">
+								<img src="img/wgood_201611161724113854.jpg" alt="">
+							</a>
+							<p>
+								<a href="#">熊兴原创手工水果盘创意实木盘子简约木质家用餐厅酒店点心早餐盘</a>
+							</p>
+							<div class="shijiGoodsWarp">
+								<div class="overlay"></div>
+								<div class="goodsPrice">￥198</div>
+							</div>
+							<div class="favourite-message">
+								<a href="#">收藏到橱窗</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="pager center-box">
+				<ul class="fixed">
+					<li>
+						<span class="prev">
+							<i class="pager_icon"></i>
+						</span>
+					</li>
+					<li>
+						<span class="now">1</span>
+					</li>
+					<li>
+						<a href="#">2</a>
+					</li>
+					<li>
+						<a href="#">3</a>
+					</li>
+					<li>
+						<a href="#">4</a>
+					</li>
+					<li>
+						<a href="#">5</a>
+					</li>
+					<li>
+						<a href="#">6</a>
+					</li>
+					<li>
+						<a href="#">7</a>
+					</li>
+					<li>
+						<span class="pager-sl">...</span>
+					</li>
+					<li>
+						<a class="next" href="#">
+							<i class="pager_icon"></i>
+						</a>
+					</li>
+				</ul>
+			</div>	
+		</div>
+	</div>
+
+	<!-- 页面尾部 -->
+	<div class="footer">
+		<div class="footer-top">
+			<div class="footer-top-content center-box clearfix">
+				<div class="more-wonderful fl">
+					<p class="fTit">更多精彩</p>
+					<ul>
+						<li><a href="#">闪购</a></li>
+						<li><a href="#">新品</a></li>
+						<li><a href="#">热卖</a></li>
+						<li><a href="#">礼物</a></li>
+						<li><a href="#">品牌</a></li>
+					</ul>
+				</div>
+				<div class="promise fl">
+					<p class="fTit">我们承诺</p>
+					<ul>
+						<li>100％原创设计</li>
+						<li>365天不打烊</li>
+						<li>无理由退换货 ( 除定制 )</li>
+						<li>担保交易</li>
+						<li>先行赔付</li>
+						<li>支持定制</li>
+					</ul>
+				</div>
+				<div class="follow-us fl">
+					<p class="fTit">在这里关注我们</p>
+					<ul>
+						<li><a class="sina" href="#">新浪微博</a></li>
+						<li><a class="tengxun" href="#">腾讯微博</a></li>
+						<li><a class="douban" href="#">豆瓣小站</a></li>
+						<li><a class="renren" href="#">人人小站</a></li>
+						<li class="ewx">
+							<a class="wasai" href="#">哇噻网官方微信</a>
+							<img src="img/ewm.png" alt="">
+						</li>
+					</ul>
+				</div>
+				<div class="tdCode fl">
+					<img src="img/edCode.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="footer-bottom-content center-box">
+				<p class="gaoduanTit">高端定制上哇噻网</p>
+				<div class="footer-bottom-list">
+					<a href="#">关于我们</a>
+					<a href="#">联系我们</a>
+					<a href="#">媒体报道</a>
+					<a href="#">创意画报</a>
+					<a href="#">招贤纳士</a>
+					<a href="#">版权保护</a>
+					<a href="#">用户条款</a>
+					<a href="#">隐私声明</a>
+					<a href="#">友情链接</a>
+					<a href="#">网站地图</a>
+					<a href="#">帮助中心</a>
+					<a href="#">手工客</a>
+				</div>
+				<p class="beian">北京光年创艺信息技术有限公司 WowSai.com Copyright© 2008-2013 [京ICP备10020900][京公网安备11010502026420][京ICP证090011号]</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

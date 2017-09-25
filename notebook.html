@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>记事本</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<link rel="stylesheet" href="css/notebook.css">
+</head>
+<body>
+	<!-- 首部导航 -->
+	<div class="head">
+		<div class="header-new">
+			<div class="head-nav center-box clearfix">
+				<div class="head-nav-register fl">
+					<a href="#targe" class="fl deng">登录</a>
+					<a href="register.html" class="fl">注册</a>
+				</div>
+				<div class="shopping-car fr">
+					<img src="img/buycar.png" alt="">
+					<a href="buycar.html">购物车<span style="color: #ff7800;">0</span>件</a>
+				</div>
+			</div>
+		</div>
+		<div style="border-top: 1px solid #f0f0f0;background-color: #fff">
+			<div class="second center-box clearfix">
+				<ul class="left-nav-list fl clearfix">
+					<li class="shouye">
+						<a href="index.html"><i class="iconfont icon-shouyetubiao1"></i></a>
+					</li>
+					<li><a href="#">定制</a></li>
+					<li><a href="fair.html">市集</a></li>
+					<li><a href="new-product.html">新品</a></li>
+					<li><a href="#">热卖</a></li>
+					<li style="height: 44px;" class="rel">
+						<a href="#">闪购</a>
+					</li>
+				</ul>
+				<ul class="right-nav-list fr clearfix">
+					<li><a href="#">画报</a></li>
+					<li><a href="#">动态</a></li>
+					<li class="search clearfix">
+						<input type="text" placeholder="请输入要搜索的关键词">
+						<a href="#"><img src="img/search.png" alt=""></a>
+					</li>
+				</ul>
+				<div class="nav-logo">
+					<a href="index.html"><img src="img/logo.jpg" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- 登录 -->
+	<div id="targe" class="box">
+		<div class="denglu center-box">
+			<div class="logoTip clearfix">
+				<div class="logoTip-top clearfix">
+					<div class="fr logoTip-top-close clearfix">
+						<a href="#">close</a>
+					</div>
+					<div class="logoTip-top-text">
+						登录哇噻网
+					</div>
+				</div>
+				<div class="logoTip-input">
+					<form id="login_form1" class="clearfix">
+						<p>
+							<label for="">邮箱：</label>
+							<input type="text" placeholder="请使用注册邮箱登录">
+						</p>
+						<p>
+							<label for="">密码：</label>
+							<input type="password">
+						</p>
+						<span class="rember-user clearfix">
+							<input type="checkbox">
+							记住我一周(在公共场所请慎用此功能)
+						</span>
+						<div class="logoTip-button clearfix">
+							<a class="ms_yahei" href="#">登录</a>
+							<a class="forget" href="#">忘记密码?</a>
+						</div>
+					</form>
+				</div>
+				<div class="logoTip-dash">
+					还没有哇噻网帐号？
+					<a href="#">立即注册</a>
+					或  使用以下帐号登录
+				</div>
+				<div class="logoTip-ludeng clearfix">
+					<a href="#">
+						<img src="img/denglu_qq.gif" alt="">
+					</a>
+					<a href="#">
+						<img src="img/denglu_sina.gif" alt="">
+					</a>
+					<a href="#">
+						<img src="img/denglu_icon1_16.gif" alt="">
+					</a>
+					<a href="#">
+						<img src="img/denglu_icon1_18.gif" alt="">
+					</a>
+					<a href="#">
+						<img src="img/denglu_baidu.gif" alt="">
+					</a>
+					<a href="#">
+						<img src="img/denglu_douban.gif" alt="">
+					</a>
+					<a href="#">
+						<img src="img/denglu_kaixin.gif" alt="">
+					</a>
+					<a href="#">
+						<img src="img/denglu_shengda.png" alt="">
+					</a>
+					<a href="#">
+						<img src="img/denglu_renren.gif" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 主要内容 -->
+	<div class="Original-life-content center-box clearfix">
+		<div class="Original-life-content-left fl">
+			<div class="Original-life-original">
+				<div class="original-top">
+					<h2>[原本生活]</h2>
+					<div class="store">
+						<p>
+							<span>店铺等级：</span>
+							<a href="#">
+								<img src="img/dengji_4.png" alt="">
+							</a>
+						</p>
+						<p>
+							<span>所在地：</span>
+							浙江省杭州
+						</p>
+						<p>
+							<span>好评率：</span>
+							<a style="color: #5c5c5c;" href="#">100.00%</a>
+						</p>
+						<p>
+							<span>开店时间：</span>
+						2014.02.25
+						</p>
+						<p style="height: 25px;">
+							<span>消费者保障：</span>
+							<img src="img/secrity.png" alt="">
+						</p>
+					</div>
+				</div>
+				<div class="boss clearfix">
+					<a class="fl" href="#">
+						<img width="66px" height="66px" src="img/yuanben.jpg" alt="">
+					</a>
+					<div class="clearfix two">
+						<p class="dianzhu fl">
+							<span>店主：</span>
+							<a href="#">原本生活</a>
+						</p>
+						<div style="width: 92px;height: 26px" class="liuyan fl">
+							<a href="#">
+								<img src="img/button_11.gif" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="fun">
+						店铺粉丝<span>45</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						宝贝<span>136</span>
+					</div>
+				</div>
+				<div class="collection">
+					<p>
+						<img src="img/brand_story.gif" alt="">
+						原本生活
+					</p>
+					<div class="btn clearfix">
+						<a class="shoucang" href="#">收藏店铺</a>
+						<a class="jinru" href="#">进入店铺</a>
+					</div>
+					<div class="message clearfix">
+						<a class="messageBg" href="#"></a>
+						<a href="#">发私信</a>
+					</div>
+				</div>
+			</div>
+			<div class="stroe-product">
+				<h3>店铺产品分类</h3>
+				<ul class="all-stroe">
+					<li class="sanjiao">
+						<a href="#">全部商品</a>
+						<span>137</span>
+					</li>
+					<li class="sanjiao">
+						<a href="#">德哥夫</a>
+						<span>9</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">我的一天</a>
+						<span>4</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">德哥夫日程本</a>
+						<span>5</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">电玩.炫丽</a>
+						<span>4</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">旗舰.二重奏</a>
+						<span>5</span>
+					</li><li class="no-sanjiao">
+						<a href="#">古腾堡</a>
+						<span>4</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">花花世界</a>
+						<span>5</span>
+					</li><li class="no-sanjiao">
+						<a href="#">水果饼干面包</a>
+						<span>4</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">星钻旅行日志</a>
+						<span>5</span>
+					</li><li class="no-sanjiao">
+						<a href="#">最酷趣志金木</a>
+						<span>4</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">动物趣脸</a>
+						<span>5</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">时尚用品</a>
+						<span>5</span>
+					</li>
+					<li class="sanjiao">
+						<a href="#">九口山</a>
+						<span>9</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">美食本限量版</a>
+						<span>6</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">大鱼海棠</a>
+						<span>3</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">裸脊装</a>
+						<span>6</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">酷狗限量版</a>
+						<span>3</span>
+					</li><li class="no-sanjiao">
+						<a href="#">九口山猫</a>
+						<span>6</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">功能本 皮面</a>
+						<span>3</span>
+					</li><li class="no-sanjiao">
+						<a href="#">北邦漂流动物</a>
+						<span>6</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">刀刀狗限量版</a>
+						<span>3</span>
+					</li><li class="no-sanjiao">
+						<a href="#">萤火虫限量版</a>
+						<span>6</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">咸鱼和烧饼</a>
+						<span>3</span>
+					</li><li class="no-sanjiao">
+						<a href="#">金典系列</a>
+						<span>6</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">功能笔记本</a>
+						<span>3</span>
+					</li><li class="no-sanjiao">
+						<a href="#">药草/芫茱</a>
+						<span>6</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">蕉鹿梦/摄影</a>
+						<span>3</span>
+					</li><li class="no-sanjiao">
+						<a href="#">静逸春天花卉</a>
+						<span>6</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">精装本</a>
+						<span>3</span>
+					</li><li class="no-sanjiao">
+						<a href="#">牛皮纸线装</a>
+						<span>6</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">BAND系列</a>
+						<span>3</span>
+					</li><li class="no-sanjiao">
+						<a href="#">铅笔系列</a>
+						<span>6</span>
+					</li>
+					<li class="no-sanjiao">
+						<a href="#">九口山日程本</a>
+						<span>3</span>
+					</li>
+				</ul>
+			</div>
+			<div class="goodsHotLove">
+				<div class="goodsHotLove-top clearfix">
+					<a class="zuiai" href="#">最爱排行</a>
+					<a class="rexiao" href="#">热销排行</a>
+				</div>
+				<ul class="goodsHotLove-bottom clearfix">
+					<li class="fl clearfix">
+						<a class="border fl" href="#">
+							<img src="img/wsmall_201403311747253019.jpeg" alt="">
+						</a>
+						<div class="fl">
+							<a href="#">九口山新款优质皮面笔记本...</a>
+							<p>￥98.00</p>
+						</div>
+					</li>
+					<li class="fl clearfix">
+						<a class="border fl" href="#">
+							<img src="img/wsmall_201403181731112186.jpeg" alt="">
+						</a>
+						<div class="fl">
+							<a href="#">可爱猫咪本子 九口山最新...</a>
+							<p>￥48.00</p>
+						</div>
+					</li>
+					<li class="fl clearfix">
+						<a class="border fl" href="#">
+							<img src="img/wsmall_201403241517222990.jpeg" alt="">
+						</a>
+						<div class="fl">
+							<a href="#">九口山2014年工作日程本A5...</a>
+							<p>￥140.00</p>
+						</div>
+					</li>
+					<li class="fl clearfix">
+						<a class="border fl" href="#">
+							<img src="img/wsmall_201403182237232040.jpeg" alt="">
+						</a>
+						<div class="fl">
+							<a href="#">速写本九口山笔记本子创意...</a>
+							<p>￥86.00</p>
+						</div>
+					</li>
+					<li class="fl clearfix">
+						<a class="border fl" href="#">
+							<img src="img/wsmall_201403181731112186.jpeg" alt="">
+						</a>
+						<div class="fl">
+							<a href="#">新款创意记事本本子涂鸦本...</a>
+							<p>￥48.00</p>
+						</div>
+					</li>
+					<li class="fl clearfix">
+						<a class="border fl" href="#">
+							<img src="img/wsmall_201403271113575282.jpeg" alt="">
+						</a>
+						<div class="fl">
+							<a href="#">九口山植物原创笔记本涂鸦...</a>
+							<p>￥45.00</p>
+						</div>
+					</li>
+					<li class="fl clearfix">
+						<a class="border fl" href="#">
+							<img src="img/wsmall_201403271115457561.jpeg" alt="">
+						</a>
+						<div class="fl">
+							<a href="#">创意文具九口山精装笔记本...</a>
+							<p>￥45.00</p>
+						</div>
+					</li>
+					<li class="fl clearfix">
+						<a class="border fl" href="#">
+							<img src="img/wsmall_201404041724529065.jpeg" alt="">
+						</a>
+						<div class="fl">
+							<a href="#">Imaginote/九口山牛皮纸空...</a>
+							<p>￥45.00</p>
+						</div>
+					</li>
+					<li class="fl clearfix">
+						<a class="border fl" href="#">
+							<img src="img/wsmall_201403202042442313.jpeg" alt="">
+						</a>
+						<div class="fl">
+							<a href="#">九口山速写本 新品 原创铅...</a>
+							<p>￥45.00</p>
+						</div>
+					</li>
+					<li class="fl clearfix">
+						<a class="border fl" href="#">
+							<img src="img/wsmall_201403202042476472.jpeg" alt="">
+						</a>
+						<div class="fl">
+							<a href="#">九口山涂鸦本 法式软壳精...</a>
+							<p>￥45.00</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="goodsHotLove clearfix">
+				<div class="goodsHotLove-top clearfix">
+					<p class="look">看过此商品的用户还看过</p>
+				</div>
+				<ul class="goodsHotLove-bottom clearfix">
+					<li class="fl clearfix">
+						<a class="border fl" href="#">
+							<img src="img/ssmall_201410200953335721.JPG" alt="">
+						</a>
+						<div class="fl">
+							<a href="#">不纸如此™ | 新款| 水洗牛皮纸 杜邦...</a>
+							<p>￥48.00</p>
+						</div>
+					</li>
+					<li class="fl clearfix">
+						<a class="border fl" href="#">
+							<img src="img/ssmall_201109231039099720.jpg" alt="">
+						</a>
+						<div class="fl">
+							<a href="#">不纸如此™ | 新款| 水洗牛皮纸 杜邦...</a>
+							<p>￥35.00</p>
+						</div>
+					</li>
+					<li class="fl clearfix">
+						<a class="border fl" href="#">
+							<img src="img/ssmall_201504161026006432.jpg" alt="">
+						</a>
+						<div class="fl">
+							<a href="#">瑞光文创裸装NoteBook文具插画速写本...</a>
+							<p>￥36.00</p>
+						</div>
+					</li>
+					<li class="fl clearfix">
+						<a class="border fl" href="#">
+							<img src="img/ssmall_201308121235024623.jpg" alt="">
+						</a>
+						<div class="fl">
+							<a href="#">手工植鞣牛皮旅行日记本 Traveler's...</a>
+							<p>￥188.00</p>
+						</div>
+					</li>
+					<li class="fl clearfix">
+						<a class="border fl" href="#">
+							<img src="img/ssmall_201610270947525278.jpg" alt="">
+						</a>
+						<div class="fl">
+							<a href="#">大粥文化 不言笔记_止静/诚品贩售A5笔记本/学生办公创意礼品</a>
+							<p>￥59.00</p>
+						</div>
+					</li>
+					<li class="fl clearfix">
+						<a class="border fl" href="#">
+							<img src="img/ssmall_201301301444217369.jpg" alt="">
+						</a>
+						<div class="fl">
+							<a href="#">手工牛皮旅行笔记本复古日记本Trave...</a>
+							<p>￥188.00</p>
+						</div>
+					</li>
+				</ul>
+				<a class="fr" href="#">
+				</a>
+			</div>
+		</div>
+		<div class="Original-life-content-right fr">
+			<div class="product-detail clearfix">
+				<div class="product-detail-left fl">
+					<div class="product-detail-img">
+						<img width="420px" height="420px" src="img/big_201404011936111336.jpeg" alt="">
+						<div class="love clearfix">
+							<a href="#"></a>
+							<p>6</p>
+						</div>
+					</div>
+					<div class="share-box clearfix">
+						<div class="share fl">
+							<span class="jiathis_txt">分享到：</span>
+							<a href="#">
+								<span class="jiathis_txt share-list share-dou"></span>
+							</a>
+							<a href="#">
+								<span class="jiathis_txt share-list share-dui"></span>
+							</a>
+							<a href="#">
+								<span class="jiathis_txt share-list share-hua"></span>
+							</a>
+							<a href="#">
+								<span class="jiathis_txt share-list share-mogu"></span>
+							</a>
+							<a href="#">
+								<span class="jiathis_txt share-list share-maozi"></span>
+							</a>
+							<a href="#">
+								<span class="jiathis_txt share-list share-baidu"></span>
+							</a>
+							<a href="#">
+								<span class="jiathis_txt share-list share-weibo"></span>
+							</a>
+							<a href="#">
+								<span class="jiathis_txt share-list share-qzone"></span>
+							</a>
+							<a href="#">
+								<span class="jiathis_txt share-list share-tweibo"></span>
+							</a>
+							<a href="#">
+								<span class="jiathis_txt share-list share-renren"></span>
+							</a>
+							<a href="#">
+								<span class="jiathis_txt share-list share-kaixin"></span>
+							</a>
+							<a href="#">
+								<span class="jiathis_txt share-list share-jia"></span>
+							</a>
+							<a href="#">
+								<span class="three">3</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="introduction fr">
+					<div class="title">
+						九口山刀刀狗十年限量珍藏版旅行记事本日记本子12种替换芯印白版
+					</div>
+					<p>
+						<span class="goods_text">价&nbsp;&nbsp;&nbsp;&nbsp;格：</span>
+						<span class="money">￥160.00</span>
+					</p>
+					<p>
+						<span class="goods_text">运&nbsp;&nbsp;&nbsp;&nbsp;费：</span>
+						<span class="beijing">北京市	通州    至</span>
+						<a class="henan" href="#hidden-city">河南省
+							<img class="down fr" src="img/down_add.gif" alt="">
+						</a>
+					</p>
+					<p class="kuaidi">快递：8.0元</p>
+					<p style="margin-bottom: 20px;">
+						<span class="goods_text">评&nbsp;&nbsp;&nbsp;&nbsp;价：</span>
+						<span class="goodping">好评率100.00%  | 
+							<a href="#">已有26条评价</a>
+						</span>
+					</p>
+					<p>
+						<span class="goods_number">购买数量：</span>
+						<span class="jiajian">-</span>
+						<span class="yi">1</span>
+						<span class="jiajian">+</span>
+						<span style="color: #5c5c5c;">库存0件</span>
+					</p>
+					<div class="Commodity-shelf">
+						<a href="#">商品已下架</a>
+					</div>
+					<div class="address" id="hidden-city">
+						<div class="choose-city">
+							请选择你的收获城市
+							<a class="fr" href="#">
+								<img src="img/chazi.gif" alt="">
+							</a>
+						</div>
+						<div class="location">你当前的所在地：河南省</div>
+						<ul class="city clearfix">
+							<li>
+								<a href="#">上海市</a>
+							</li>
+							<li>
+								<a href="#">江苏省</a>
+							</li>
+							<li>
+								<a href="#">浙江省</a>
+							</li>
+							<li>
+								<a href="#">安徽省</a>
+							</li>
+							<li>
+								<a href="#">江西省</a>
+							</li>
+							<li>
+								<a href="#">北京市</a>
+							</li>
+							<li>
+								<a href="#">天津市</a>
+							</li>
+							<li>
+								<a href="#">河北省</a>
+							</li>
+							<li>
+								<a href="#">山西省</a>
+							</li>
+							<li>
+								<a href="#">内蒙古</a>
+							</li>
+							<li>
+								<a href="#">山东市</a>
+							</li>
+							<li>
+								<a href="#">河南省</a>
+							</li>
+							<li>
+								<a href="#">湖北省</a>
+							</li>
+							<li>
+								<a href="#">湖南省</a>
+							</li>
+							<li>
+								<a href="#">福建省</a>
+							</li>
+							<li>
+								<a href="#">广东市</a>
+							</li>
+							<li>
+								<a href="#">海南省</a>
+							</li>
+							<li>
+								<a href="#">广西</a>
+							</li>
+							<li>
+								<a href="#">辽宁省</a>
+							</li>
+							<li>
+								<a href="#">吉林省</a>
+							</li>
+							<li>
+								<a href="#">黑龙江</a>
+							</li>
+							<li>
+								<a href="#">陕西省</a>
+							</li>
+							<li>
+								<a href="#">甘肃省</a>
+							</li>
+							<li>
+								<a href="#">青海省</a>
+							</li>
+							<li>
+								<a href="#">宁夏</a>
+							</li>
+							<li>
+								<a href="#">新疆</a>
+							</li>
+							<li>
+								<a href="#">重庆市</a>
+							</li>
+							<li>
+								<a href="#">四川省</a>
+							</li>
+							<li>
+								<a href="#">贵州省</a>
+							</li>
+							<li>
+								<a href="#">云南省</a>
+							</li>
+							<li>
+								<a href="#">西藏</a>
+							</li>
+							<li>
+								<a href="#">香港</a>
+							</li>
+							<li>
+								<a href="#">澳门</a>
+							</li>
+							<li>
+								<a href="#">台湾省</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="nav_sp">
+				<ul class="fl clearfix">
+					<li class="select">
+						<a href="#">产品详情</a>
+					</li>
+					<li>
+						<a href="#">买家评价</a>
+					</li>
+					<li>
+						<a href="#">购买咨询</a>
+					</li>
+					<li>
+						<a href="#">产品咨询</a>
+					</li>
+				</ul>
+			</div>
+			<div class="postage">
+				<img src="img/201404031938143853.gif" alt="">
+				<img src="img/201404031938148145.gif" alt="">
+				<img src="img/201404031938142668.gif" alt="">
+			</div>
+			<div class="commodity-information">
+				<img src="img/T2tnnnXkBaXXXXXXXX_!!69578998.png" alt="">
+				<div class="commodity-information-box clearfix">
+					<div class="fl information-img">
+						<img width="342px" height="342px" src="img/T1vIsUXg0dXXXXXXXX_!!0-item_pic.jpg" alt="">
+					</div>
+					<div class="fl information-content">
+						<p>商品名称：刀刀狗十周年纪念版 限量套装笔记本 印白款</p>
+						<p>品&nbsp;&nbsp;&nbsp;牌:&nbsp;九口山</p>
+						<p>设&nbsp;计&nbsp;师:&nbsp;刀刀狗&TV</p>
+						<p>用&nbsp;&nbsp;&nbsp;途:&nbsp;笔记本/记事本/旅行笔记/多功能本/事件薄/涂鸦本</p>
+						<p>外盒:&nbsp;145*235*35mm，高强度牛皮瓦楞纸盒，丝网印白图案</p>
+						<p>套装本: 尺寸 130*208mm</p>
+						<p>结构主要材质：200克进口牛皮纸。UV印白工艺。</p>
+						<p>套装包含：文件袋1个；票据收纳袋1个；可替换缝线本3本。</p>
+						<p>内置缝线本：尺寸 112*200*4mm , 60页</p>
+						<p>1、事件簿内页格式，100克米白色道林纸；</p>
+						<p>2、经典横线内页格式，100克米白色道林纸；</p>
+						<p>3、空白内页格式，80克深色牛皮纸；</p>
+						<p>套装内三种格式各选一本，封面随机封装。</p>
+					</div>
+				</div>
+				<div class="desciription">
+					<img src="img/T2BtfoXhtXXXXXXXXX_!!69578998.png" alt="">
+					<img src="img/T2xwKTXaJbXXXXXXXX_!!69578998.jpg" alt="">
+					<p>（限量1000套，每套单独编号）</p>
+				</div>
+				<div class="long-img">
+					<img src="img/T2hO8NXohdXXXXXXXX_!!69578998.jpg" alt="">
+				</div>
+				<div class="size-comparison">
+					<img src="img/T2qdvoXldXXXXXXXXX_!!69578998.png" alt="">
+					<img src="img/T2yDCtXo4bXXXXXXXX_!!69578998.jpg" alt="">
+				</div>
+				<div class="product-show">
+					<img src="img/T2xCvnXj8XXXXXXXXX_!!69578998.png" alt="">
+					<img src="img/T2rMLhXkNaXXXXXXXX_!!69578998.jpg" alt="">
+					<img src="img/T2nIq0XmNXXXXXXXXX_!!69578998.jpg" alt="">
+				</div>
+				<div class="brand">
+					<img src="img/T2JtdqXLlXXXXXXXXX_!!69578998.png" alt="">
+					<img src="img/T2kY8mXJVaXXXXXXXX_!!69578998.jpg" alt="">
+				</div>
+				<div class="brand">
+					<img src="img/T2Uc4RXxJaXXXXXXXX_!!69578998.png" alt="">
+					<img src="img/T2qrGxXvJaXXXXXXXX_!!69578998.jpg" alt="">
+				</div>
+				<div class="brand">
+					<img src="img/T2ua0ZXp4XXXXXXXXX_!!69578998.png" alt="">
+					<img src="img/T2I5LfXjtbXXXXXXXX_!!69578998.jpg" alt="">
+				</div>
+				<div class="brand">
+					<img src="img/T23HFWXzhXXXXXXXXX_!!69578998.png" alt="">
+					<img src="img/201404031938143870.jpg" alt="">
+				</div>
+				<div class="label-quality clearfix">
+					<div class="label fl clearfix">
+						<p>标签</p>
+						<span>12种替换芯</span>
+						<span>刀刃</span>
+						<span>九口山</span>
+						<span>慕容引刀</span>
+					</div>
+					<div class="quality fl">
+						<p>材质</p>
+						<div>
+							<span>事件簿内页格式</span>
+							<span>100克米白色道林纸</span>
+							<span>经典横线内页格式</span>
+							<span>100克米白色道林纸</span>
+							<span>空白内页格式</span>
+							<span>80克深色牛皮纸</span>
+						</div>
+					</div>
+				</div>
+				<div class="recommend">
+					<h3>店主推荐</h3>
+					<ul class="clearfix">
+						<li>
+							<img width="142px" height="142px" src="img/small_201403111551308979.jpeg" alt="">
+							<p>
+								<a href="#">2014热销新品九口山原创笔记本 方格内页/绑...</a>
+							</p>
+							<p>
+								<a href="#">[原本生活]</a>
+								<span>￥68.00</span>
+							</p>
+						</li>
+						<li>
+							<img width="142px" height="142px" src="img/small_201403241517389106.jpeg" alt="">
+							<p>
+								<a href="#">九口山2014日程记事本日历计划本工作效率手...</a>
+							</p>
+							<p>
+								<a href="#">[原本生活]</a>
+								<span>￥145.00</span>
+							</p>
+						</li>
+						<li>
+							<img width="142px" height="142px" src="img/small_201403241517162585.jpeg" alt="">
+							<p>
+								<a href="#">九口山2014日程本 效率手册 日程记事本计划...</a>
+							</p>
+							<p>
+								<a href="#">[原本生活]</a>
+								<span>￥135.00</span>
+							</p>
+						</li>
+						<li>
+							<img width="142px" height="142px" src="img/small_201403241517222990.jpeg" alt="">
+							<p>
+								<a href="#">九口山2014年工作日程本A5效率手册 日历计...</a>
+							</p>
+							<p>
+								<a href="#">[原本生活]</a>
+								<span>￥140.00</span>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 页面尾部 -->
+	<div class="footer">
+		<div class="footer-top">
+			<div class="footer-top-content center-box clearfix">
+				<div class="more-wonderful fl">
+					<p class="fTit">更多精彩</p>
+					<ul>
+						<li><a href="#">闪购</a></li>
+						<li><a href="#">新品</a></li>
+						<li><a href="#">热卖</a></li>
+						<li><a href="#">礼物</a></li>
+						<li><a href="#">品牌</a></li>
+					</ul>
+				</div>
+				<div class="promise fl">
+					<p class="fTit">我们承诺</p>
+					<ul>
+						<li>100％原创设计</li>
+						<li>365天不打烊</li>
+						<li>无理由退换货 ( 除定制 )</li>
+						<li>担保交易</li>
+						<li>先行赔付</li>
+						<li>支持定制</li>
+					</ul>
+				</div>
+				<div class="follow-us fl">
+					<p class="fTit">在这里关注我们</p>
+					<ul>
+						<li><a class="sina" href="#">新浪微博</a></li>
+						<li><a class="tengxun" href="#">腾讯微博</a></li>
+						<li><a class="douban" href="#">豆瓣小站</a></li>
+						<li><a class="renren" href="#">人人小站</a></li>
+						<li class="ewx">
+							<a class="wasai" href="#">哇噻网官方微信</a>
+							<img src="img/ewm.png" alt="">
+						</li>
+					</ul>
+				</div>
+				<div class="tdCode fl">
+					<img src="img/edCode.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="footer-bottom-content center-box">
+				<p class="gaoduanTit">高端定制上哇噻网</p>
+				<div class="footer-bottom-list">
+					<a href="#">关于我们</a>
+					<a href="#">联系我们</a>
+					<a href="#">媒体报道</a>
+					<a href="#">创意画报</a>
+					<a href="#">招贤纳士</a>
+					<a href="#">版权保护</a>
+					<a href="#">用户条款</a>
+					<a href="#">隐私声明</a>
+					<a href="#">友情链接</a>
+					<a href="#">网站地图</a>
+					<a href="#">帮助中心</a>
+					<a href="#">手工客</a>
+				</div>
+				<p class="beian">北京光年创艺信息技术有限公司 WowSai.com Copyright© 2008-2013 [京ICP备10020900][京公网安备11010502026420][京ICP证090011号]</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
